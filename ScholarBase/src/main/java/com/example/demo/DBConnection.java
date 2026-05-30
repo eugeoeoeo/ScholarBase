@@ -9,7 +9,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/studentdb",
                 "postgres",
-                "Angelo--022406"
+                "your_password"
             );
         } catch (Exception e) {
             e.printStackTrace();
